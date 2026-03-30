@@ -1,11 +1,12 @@
-# Project 7: NASA API - Space Explorer App
-NASA releases a new "Astronomy Picture of the Day" (APOD) every day—spotlighting breathtaking images of galaxies, stars, planets, and more.
+# NASA Space Explorer
 
-Your task is to build an interactive web app that fetches and displays these photos using [NASA's API](https://api.nasa.gov/). Users will pick a date range and instantly view stunning photos from across the cosmos, along with titles and descriptions.
+An interactive web app that connects to NASA's Astronomy Picture of the Day (APOD) API to display a gallery of stunning space images and videos. Users select a date range to browse the cosmos, click any entry for a detailed modal view, and discover a new space fact on every search.
 
-You'll get to use your skills to build something that's actually connected to real-world data from one of the most iconic organizations in the world.
+## Features
+- Date range picker to browse NASA's APOD archive (June 16, 1995 – today)
+- Responsive image gallery with smooth hover zoom effects
+- Random "Did You Know?" space fact, refreshed on every search
+- NASA brand styling
 
-## Starter Files
-- The provided files include a NASA logo, date inputs, a button, a placeholder for your gallery, and basic layout and styling to help you get started.
-- It also includes built-in logic (in `dateRange.js`) to handle the valid APOD date range—from June 16, 1995 to today. No need to modify it.
-- All your custom JavaScript should go in `script.js`. That's where you'll write the code that fetches data and displays your gallery.
+## API Key
+This app uses [NASA's APOD API](https://api.nasa.gov/).
