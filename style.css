@@ -262,6 +262,11 @@ button#fetchBtn:disabled {
   object-fit: cover;
   display: block;
   background: #050d1e;
+  transition: transform 0.35s ease;
+}
+
+.gallery-item:hover .card-thumb {
+  transform: scale(1.07);
 }
 
 .card-video-thumb {
