@@ -55,6 +55,8 @@ async function fetchImages() {
     return;
   }
 
+  factEl.textContent = spaceFacts[Math.floor(Math.random() * spaceFacts.length)];
+
   showLoading();
   fetchBtn.disabled = true;
 
